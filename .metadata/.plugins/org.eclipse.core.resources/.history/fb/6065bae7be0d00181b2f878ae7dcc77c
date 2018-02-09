@@ -16,12 +16,16 @@ public class Quadratic
 
 	public Quadratic()
 	{
-		
+
+
 	}
+
 	public Quadratic(int quadA, int quadB, int quadC)
 	{
-		
+
+
 	}
+
 	public void setEquation(int quadA, int quadB, int quadC)
 	{
 
