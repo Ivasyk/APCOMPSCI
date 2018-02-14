@@ -17,14 +17,6 @@ public class Quadratic
 
 	public Quadratic()
 	{
-		
-	}
-	public Quadratic(int quadA, int quadB, int quadC)
-	{
-		a = quadA;
-		b = quadB;
-		c = quadC;
-		
 		System.out.println("Welcome to the quadratic calculator.");
 		System.out.print("enter A: ");
 		a = meme.nextInt();
@@ -32,15 +24,22 @@ public class Quadratic
 		b = meme.nextInt();
 		System.out.print("enter C: ");
 		c = meme.nextInt();
+		
+	}
+	public Quadratic(int quadA, int quadB, int quadC)
+	{
+		
 	}
 	public void setEquation(int quadA, int quadB, int quadC)
 	{
-		
+
+
  	}
 
 	public void calcRoots( )
 	{
-		
+
+
 	}
 
 	public void print( )

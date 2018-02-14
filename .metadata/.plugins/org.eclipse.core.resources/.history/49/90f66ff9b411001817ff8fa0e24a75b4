@@ -22,7 +22,7 @@ public class Name
 
    public void setName(String s)
    {
-	   name = s;
+	   
    }
 	public String getFirst()
 	{
@@ -35,7 +35,7 @@ public class Name
 	{
 		int kek;
 		kek = name.indexOf(" ");
-		return name.substring(kek + 1, name.length());
+		return name.substring(kek, name.length());
 	}
 
  	public String toString()
