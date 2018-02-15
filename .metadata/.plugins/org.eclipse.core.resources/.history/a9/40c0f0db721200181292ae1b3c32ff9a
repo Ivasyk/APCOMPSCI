@@ -15,9 +15,10 @@ public class StringChecker
 		
 	}
 
-	public StringChecker(String s)
+	public String StringChecker(String s)
 	{
 		word = s;
+		return s;
 	}
 
    public void setString(String s)
@@ -51,6 +52,6 @@ public class StringChecker
 
  	public String toString()
  	{
- 		return word;
+ 		return "\n\n";
 	}
 }

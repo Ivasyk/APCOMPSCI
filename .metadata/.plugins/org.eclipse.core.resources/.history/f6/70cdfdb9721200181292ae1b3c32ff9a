@@ -51,6 +51,6 @@ public class StringChecker
 
  	public String toString()
  	{
- 		return word;
+ 		return "\n\n";
 	}
 }
