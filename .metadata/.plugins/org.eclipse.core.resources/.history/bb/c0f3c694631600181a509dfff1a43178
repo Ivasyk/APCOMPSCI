@@ -9,9 +9,12 @@ import java.util.Scanner;
 
 public class CharacterAnalyzer
 {
-	private char urChar;
-	private String lower, upper, number;
-	private int ascii;
+	private char theChar;
+
+	public CharacterAnalyzer()
+	{
+		
+	}
 
 	public CharacterAnalyzer(char c)
 	{
@@ -25,11 +28,12 @@ public class CharacterAnalyzer
 
 	public char getChar()
 	{
-		
+		return '-';
 	}
 
 	public boolean isUpper( )
 	{
+		
 		return false;
 	}
 
@@ -52,6 +56,10 @@ public class CharacterAnalyzer
 
 	public String toString()
 	{
-		  
+
+
+
+
+		return ""+getChar() + " is a lowercase character. ASCII == " + getASCII() + "\n";	  
 	}
 }
